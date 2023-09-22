@@ -13,10 +13,10 @@ const shuffle = (array) => {
 // "Morderkaiser", "Nasus", "Olaf", "Ornn", "Pantheon", "Poppy", "Quinn", "Renekton", "Riven",
 // "Rumble", "Sett", "Shen", "Shyvana", "Singed", "Sion", "Tahm Kench", "Teemo", "Trundle", "Tryndamere",
 // "Urgot", "Volibear", "Yorick"]
-
+let link = "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/"
 let tops = [
-    {name: "Aatrox", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/5992.jpg"},
-    {name: "Camille", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6010.jpg"},
+    {name: "Aatrox", icon: link + "5992.jpg"},
+    {name: "Camille", icon: link + "6010.jpg"},
     {name: "Cho'gath", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6012.jpg"},
     {name: "Darius", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6014.jpg"},
     {name: "Dr Mundo", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6016.jpg"},
@@ -95,6 +95,7 @@ let jgs = [
     {name: "Wukong", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6231.jpg"},
     {name: "Xin Zhao", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6234.jpg"},
     {name: "Zac", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6239.jpg"},
+    {name: "Briar", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6283.jpg"},
 ]
 
 // let jgs = ["Amumu", "Bel'veth", "Diana", "Ekko", "Elise", "Evelynn", "Fiddlesticks", "Gragas", "Graves",
