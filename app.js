@@ -8,11 +8,6 @@ const shuffle = (array) => {
     return array; 
   }; 
 
-// let tops = ["Aatrox", "Camille", "Cho'gath", "Darius", "Dr Mundo", "Fiora", "Gangplank", "Garen", 
-// "Gnar", "Gwen", "Illaoi", "Irelia", "Jax", "Jayce", "K'sante", "Kayle", "Kennen", "Kled", "Malphite",
-// "Morderkaiser", "Nasus", "Olaf", "Ornn", "Pantheon", "Poppy", "Quinn", "Renekton", "Riven",
-// "Rumble", "Sett", "Shen", "Shyvana", "Singed", "Sion", "Tahm Kench", "Teemo", "Trundle", "Tryndamere",
-// "Urgot", "Volibear", "Yorick"]
 let link = "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/"
 let tops = [
     {name: "Aatrox", icon: link + "5992.jpg"},
@@ -27,7 +22,7 @@ let tops = [
     {name: "Gwen", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6031.jpg"},
     {name: "Illaoi", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6034.jpg"},
     {name: "Irelia", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6035.jpg"},
-    {name: "Jax", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6039.jpg"},
+    {name: "Jax", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6350.jpg"},
     {name: "Jayce", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6040.jpg"},
     {name: "K'sante", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6043.jpg"},
     {name: "Kayle", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6050.jpg"},
@@ -98,11 +93,6 @@ let jgs = [
     {name: "Briar", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6283.jpg"},
 ]
 
-// let jgs = ["Amumu", "Bel'veth", "Diana", "Ekko", "Elise", "Evelynn", "Fiddlesticks", "Gragas", "Graves",
-// "Hecarim", "Ivern", "Jarvan IV", "Karthus", "Kayn", "Kha'zix", "Kindred", "Lee Sin", "Lillia", "Maokai", 
-// "Master Yi", "Nidalee", "Nocturne", "Nunu & Willump", "Rammus", "Rek'sai", "Rengar", "Sejuani", "Shaco",
-// "Shyvana", "Skarner", "Udyr", "Vi", "Viego", "Warwick", "Wukong", "Xin Zhao", "Zac"]
-
 let mids = [
     {name: "Ahri", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/5993.jpg" },
     {name: "Akali", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/5994.jpg" },
@@ -145,11 +135,6 @@ let mids = [
     {name: "Ziggs", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6242.jpg" },
     {name: "Zoe", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6244.jpg" }]
 
-// let mids = ["Ahri", "Akali", "Akshan", "Anivia", "Annie", "Aurelion Sol", "Azir", "Cassiopeia", "Corki",
-// "Fizz", "Galio", "Heimendiger", "Kassadin", "Katarina", "LeBlanc", "Lissandra", "Lux", "Malzahar", "Naafiri", "Neeko", 
-// "Orianna","Qiyana", "Ryze", "Sylas", "Syndra", "Swain", "Taliyah", "Talon", "Twisted Fate", "Veigar", "Vel'koz", "Vex", "Viktor", "Vladimir",
-// "Xerath", "Yasuo", "Yone",  "Zed", "Ziggs", "Zoe"];
-
 let adcs = [
     {name: "Aphelios", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6000.jpg"},
     {name: "Ashe", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6001.jpg"},
@@ -173,8 +158,7 @@ let adcs = [
     {name: "Xayah", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6232.jpg"},
     {name: "Zeri", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6241.jpg"},
     ]
-// let adcs = ["Aphelios", "Ashe", "Caitlyn", "Draven", "Ezreal", "Jhin", "Jinx", "Kai'sa", "Kalista", "Kog'maw",
-// "Lucian", "Miss Fortune", "Nilah", "Samira", "Sivir", "Tristana", "Twitch", "Varus", "Vayne", "Xayah", "Zeri"]
+
 let sups = [
     {name: "Alistar", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/5996.jpg"},
     {name: "Bardo", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6004.jpg"},
@@ -203,10 +187,7 @@ let sups = [
     {name: "Zilean", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6243.jpg"},
     {name: "Zyra", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6258.jpg"},
     ]
-    
-// let sups = ["Alistar", "Bardo", "Blitzcrank", "Brand", "Braum", "Janna", "Karma", "Leona", "Lulu", "Lux",
-// "Milio", "Morgana", "Nami", "Nautilus", "Pyke", "Rakan", "Rell", "Renata Glasc", "Senna", "Seraphine", "Sona",
-// "Soraka", "Taric", "Thresh", "Yuumi", "Zilean", "Zyra"]
+
 
 let topsMod = shuffle(tops)
 let jgsMod = shuffle(jgs)
