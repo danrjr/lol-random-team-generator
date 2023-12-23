@@ -133,7 +133,9 @@ let mids = [
     {name: "Yone", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6236.jpg" },
     {name: "Zed", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6240.jpg" },
     {name: "Ziggs", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6242.jpg" },
-    {name: "Zoe", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6244.jpg" }]
+    {name: "Zoe", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6244.jpg" },
+    {name: "Hwei", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6469.jpg"}
+]
 
 let adcs = [
     {name: "Aphelios", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6000.jpg"},
