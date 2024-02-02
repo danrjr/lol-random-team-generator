@@ -159,6 +159,7 @@ let adcs = [
     {name: "Vayne", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6221.jpg"},
     {name: "Xayah", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6232.jpg"},
     {name: "Zeri", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6241.jpg"},
+    {name: "Smolder", icon: "https://raw.communitydragon.org/latest/plugins/rcp-be-lol-game-data/global/default/v1/profile-icons/6544.jpg"},
     ]
 
 let sups = [
